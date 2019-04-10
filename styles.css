@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*CSS Document
+  Author : Kat Nelson
+  Date : 09 Apr 2019
+  Exercise Angy Pig*/
+
+
+body {
+    background-color: lightgray;
+    color: #162240;
+}
+
+li {
+    margin-left: 0;
+    padding-bottom: 5px;
+    width: 70%;
+}
+
+#subUL li {
+    width: 100%;
+}
+
+#safeTimer {
+    font-family: fantasy;
+    display: inline;
+    position: absolute;
+    margin-left: 200px;
+}
+
+#txtScore {
+    font-family: fantasy;
+    font-size: 36px;
+}
+
+#rules {
+    display: inline;
+    position: absolute;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#game {
+    border: 5px solid teal;
+    background-image: url("images/angryPigBackground.jpg");
+    background-size: 600px 500px;
+
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+/* button generated from online button generator*/
+.myButton {
+    -moz-box-shadow:inset 0 1px 0 0 #efdcfb;
+    -webkit-box-shadow:inset 0 1px 0 0 #efdcfb;
+    box-shadow:inset 0 1px 0 0 #efdcfb;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfbdfa), color-stop(1, #bc80ea));
+    background:-moz-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+    background:-webkit-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+    background:-o-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+    background:-ms-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+    background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfbdfa', endColorstr='#bc80ea',GradientType=0);
+    background-color:#dfbdfa;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #c584f3;
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #9752cc;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc80ea), color-stop(1, #dfbdfa));
+    background:-moz-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+    background:-webkit-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+    background:-o-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+    background:-ms-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+    background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc80ea', endColorstr='#dfbdfa',GradientType=0);
+    background-color:#bc80ea;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angry Pig - Kat Nelson</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
+
+    <script src="Box2dWeb-2.1.a.3.min.js"></script>
+    <script src="boxbox.min.js"></script>
+    <script src="game.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="txtScore">score: 000</div>
+    <div id="safeTimer">
+        <p id="safeTimerDisplay">Time Until Floor Kill: 30</p>
+    </div>
+
+    <canvas id="game" width="600" height="500">
+        Your browser does not support canvas :(
+    </canvas>
+
+    <div id="rules">
+        <h2>To play the game: </h2>
+        <ul id="mainUL">
+            <li><strong>Press any key</strong> to send your pig flying and start the timer!</li>
+            <li><strong>You can throw your pig more than once</strong>,
+                but you can <em>only</em> throw it to the right.
+                Use multiple keypresses to try to climb back up, or, bounce off the wall to go left!</li>
+
+            <li><strong>Max points: 300 points</strong> <ul id="subUL">
+                    <li>Blocks: 10 points for each block destroyed (23 total blocks)</li>
+                    <li>Star: 70 bonus points for destroying the star!</li>
+                </ul>
+            </li>
+            <li><strong>The floor DISAPPEARS after 30 seconds.</strong> Get bottom blocks first for maximum points</li>
+
+        </ul>
+
+        <a href="#" id="myButton" class="myButton">NEW GAME</a>
+
+    </div>
+
+
+   <br>
+    <div id="direction">Direction:<br>
+    Impulse:</div>
+
+
+    <footer>Angry Pig Ver 1.00.00 by Kat Nelson</footer>
+
+
+</body>
+</html>
